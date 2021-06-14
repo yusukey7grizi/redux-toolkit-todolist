@@ -1,0 +1,7 @@
+.wrapper {
+  height: 49vh;
+  overflow: hidden;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
