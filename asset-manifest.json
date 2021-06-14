@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/redux-toolkit-todolist/static/css/main.e982ccd2.chunk.css",
+    "main.js": "/redux-toolkit-todolist/static/js/main.8244792d.chunk.js",
+    "main.js.map": "/redux-toolkit-todolist/static/js/main.8244792d.chunk.js.map",
+    "runtime-main.js": "/redux-toolkit-todolist/static/js/runtime-main.60aa4a98.js",
+    "runtime-main.js.map": "/redux-toolkit-todolist/static/js/runtime-main.60aa4a98.js.map",
+    "static/js/2.206855d9.chunk.js": "/redux-toolkit-todolist/static/js/2.206855d9.chunk.js",
+    "static/js/2.206855d9.chunk.js.map": "/redux-toolkit-todolist/static/js/2.206855d9.chunk.js.map",
+    "index.html": "/redux-toolkit-todolist/index.html",
+    "static/css/main.e982ccd2.chunk.css.map": "/redux-toolkit-todolist/static/css/main.e982ccd2.chunk.css.map",
+    "static/js/2.206855d9.chunk.js.LICENSE.txt": "/redux-toolkit-todolist/static/js/2.206855d9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.60aa4a98.js",
+    "static/js/2.206855d9.chunk.js",
+    "static/css/main.e982ccd2.chunk.css",
+    "static/js/main.8244792d.chunk.js"
+  ]
+}
