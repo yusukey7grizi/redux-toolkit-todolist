@@ -23,13 +23,21 @@ export const TodoSlice = createSlice({
       };
       state.Tasks = [...state.Tasks, newTodo];
     },
+    editTodo: (state, action) => {
+      const SelectedTodo = state.Tasks.find(
+        (task) => task.id === action.payload.id
+      );
+      if (SelectedTodo) {
+        SelectedTodo.text = action.payload.text;
+      }
+    },
     deleteTodo: (state, action) => {
       state.Tasks = state.Tasks.filter((task) => task.id !== action.payload.id);
     },
   },
 });
 
-export const { addTodo, deleteTodo } = TodoSlice.actions;
+export const { addTodo, deleteTodo, editTodo } = TodoSlice.actions;
 
 export const selectTodo = (state: RootState) => state.task;
 

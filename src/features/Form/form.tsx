@@ -19,6 +19,7 @@ const Form = () => {
         onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
           setInputText(e.target.value);
         }}
+        inputProps={{ maxLength: 25 }}
         id="outlined-basic"
         label="Add a Task"
         variant="outlined"
